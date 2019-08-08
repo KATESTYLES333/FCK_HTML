@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My porfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-color: #E5D6D3">
+	<header>
+	<h1 align="center">My own website</h1>
+	<address>
+		<div>Country:Belarus</div>
+		<div>Town:Dzerzhinsk</div>
+		<div>Telephone:8-800-555-35-35</div>
+	</address>
+</header>
+		<form action="autorisation.php" method="post">
+			<input type="text" name="name" id="name" placeholder="Your name">
+			<input type="password" name="pswrd" id="pswrd" placeholder="Your password">
+			<input type="submit" id="submit" value="Sign in">
+			<input type="reset" value="Reset">
+		</form>
+	<hr color = "blue">
+	<div>
+		<h2 class="section-title">My contacts</h2>
+
+		<div>
+			<h3 style="color: green;">I'm in social network</h3>
+			<ul>
+				<li><a href="https://vk.com/katestyles" target="_blank" title="Come to your profile">I'm on VK</a></li>
+				<li><a href="https://www.instagram.com/katestyles333/">I'm on Instagram</a></li>
+			</ul>
+		</div>
+	</div>
+	<div>.....</div>
+	<div>.....</div>
+	<div>.....</div>
+	<div>
+		<h2 class="section-title">About me</h2>
+		<div>
+			<img id="my_ava" src="http://lorempixel.com/200/200" alt="Ooops" title="Kate Vyhouskaya" width="200" height="200" border="2">
+		</div>
+		<div>
+			<h3>My biography</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
+			<p>
+			Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+			</p>
+		</div>
+	</div>
+	<div>
+		<h2 class="section-title">My statistics</h2>
+		<table border="1" cellpadding="5" cellspacing="1">
+			<tr bgcolor="#cacaca">
+				<th>Type of project</th>
+				<th>Finish projects</th>	
+				<th>Buy projects</th>
+			</tr>
+			<tr>
+				<td>Static</td>
+				<td data-max"100">86</td>
+				<td>88</td>
+			</tr>
+			<tr>
+				<td>Antic</td>
+				<td>80</td>
+				<td>50</td>
+			</tr>
+		</table>
+	</div>
+	<dir>
+		<h2 class="section-title">TO ORDER A SITE</h2>
+		<form action="order.php" method="post">
+			<div>
+			<label for="client_name">
+				<span>Enter name:</span>
+			</label>
+			<input type="text" id="client_name" name="client_name" placeholder="Your name">
+		</div>
+		<div>
+			<label>
+				<span>Enter email:</span>
+			<input type="text" name="client_email" placeholder="Your email">
+		</label>
+		</div>
+		<div>
+			<label>
+				<span>Choose gender:</span>
+			<input type="radio" name="client_gender" value="male"> Male
+			<input type="radio" name="client_gender" value="female"> Female
+		</label>
+		</div>
+		<div>
+			<span>Type of websire:</span>
+			<select name="type_web" multiple="">
+				<option value="Internet shop">Internet</option>
+				<option value="Landing">Landing</option>
+				<option value="Card">Cards</option>
+			</select>
+		</div>
+				<div>
+			<label>
+				<span>You can send your ideas</span>
+				<input type="file" name="file" value="Chhose file">
+			</label>
+			<div>
+				<label>
+					<span>Your comments:</span>
+					<textarea name="comment" cols="50" rows="10" maxlength="100"></textarea>
+				</label>
+			</div>
+		</div>
+		<div>
+			<button name="submit">Submit!</button>
+			<input type="reset" value="Reset">
+		</div>
+
+				<div>
+			<hr color = "black">
+			<label>
+				<span>More settings:</span>
+				<input type="checkbox" name="extra" value="adaptive">
+				Adaptive
+				<input type="checkbox" name="extra" value="hosting" checked="">
+				Hosting
+				<input type="checkbox" name="extra" value="support">
+				Support
+				<input type="checkbox" name="extra" value="admin">
+				Admin settings
+			</label>
+		</div>
+		</form>
+	</dir>
+</body>
+</html>
+
